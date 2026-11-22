@@ -32,6 +32,8 @@ A wireframe az [5. házi](05-ia-es-user-flow.md) sitemapjére és user flow-jár
 | W3-G | Map · vendég | Fiók nélkül: csak a térkép, legfeljebb 100 jelölés |
 | W2-M | Game page · Progress, mobil | A döntési képernyő mobilon |
 | W11 | Not available yet | A prototípusban nem tervezett menüpontok jelzése |
+| W12-B | Map · jelöléskorlát elérve | A markerpanel alján „100 of 100 marks” figyelmeztetés |
+| W12 | Limit reached (modal) | **Kritikus állapot 3:** az ingyenes 100 jelölés elfogyott; Pro, Completion Pack vagy „Not now” |
 
 ## Annotációk
 
@@ -39,7 +41,8 @@ Az annotációk a „06–07 Jegyzetek” oldalon vannak, képernyőnként. Ezek
 - **feltevések**, például hogy a kitűzött kategória a Home tetején jelenik meg;
 - **viselkedés**, például hogy a „Mark as found” minden számlálót egyszerre frissít, és az értesítés 8 másodpercig visszavonható;
 - **akadálymentesség**, például hogy a pin állapotát ikon és felirat is jelzi, nem csak a szín;
-- **vendégszabály:** fiók nélkül a térkép megtekinthető, és legfeljebb 100 jelölés tárolható az eszközön. Tipp írásához bejelentkezés kell.
+- **vendégszabály:** fiók nélkül a térkép megtekinthető, és legfeljebb 100 jelölés tárolható az eszközön. Tipp írásához bejelentkezés kell;
+- **jelöléskorlát:** ingyenes fiókkal játékonként legfeljebb 100 elem jelölhető meg. Az állás a markerpanel alján látszik (pl. 94 of 100), a 100. után a „Mark as found” a W12 figyelmeztető ablakot nyitja. Pro-val korlátlan.
 
 ## Rövid jegyzet: layout, fő művelet, hierarchia
 

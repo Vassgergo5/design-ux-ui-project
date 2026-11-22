@@ -1,12 +1,12 @@
 # 7. Kattintható prototípus
 
 - **Hi-fi prototípus (ezt teszteljük), „09 Hi-fi” oldal:** https://www.figma.com/proto/kN2k74VzXlRbW2lnC9GXMH?node-id=114-5&starting-point-node-id=114%3A5
-- **Wireframe-prototípus, „06 Wireframe” oldal:** https://www.figma.com/design/kN2k74VzXlRbW2lnC9GXMH?node-id=98-2. A Prototype panelen ugyanaz a 4 folyamat indítható.
+- **Wireframe-prototípus, „06 Wireframe” oldal:** https://www.figma.com/design/kN2k74VzXlRbW2lnC9GXMH?node-id=98-2. A Prototype panelen ugyanaz az 5 folyamat indítható.
 - **Korlátok és jegyzetek, „06–07 Jegyzetek” oldal:** https://www.figma.com/design/kN2k74VzXlRbW2lnC9GXMH?node-id=98-3
 
 ## Folyamatok (Figma flow starting point)
 
-A négy folyamat egymástól független: egyikből sem lehet a másikba kattintani.
+Az öt folyamat egymástól független: egyikből sem lehet a másikba kattintani.
 
 | # | Folyamat | Kezdés | Siker / végállapot |
 |---|---|---|---|
@@ -14,6 +14,7 @@ A négy folyamat egymástól független: egyikből sem lehet a másikba kattinta
 | 2 | Kivétel – üres könyvtár (nincs követett játék) | H6 Library | Az üres állapot és a követhető játékok látszanak |
 | 3 | Vendég – térkép fiók nélkül (max. 100 jelölés) | H3-G | Megtekintés és helyi jelölés, „1/100” számláló |
 | 4 | Kivétel – nem elérhető menüpont | H11 | „This section isn't available yet” |
+| 5 | Kivétel – ingyenes jelöléskorlát elérve (100/100) | H12-B | H12 figyelmeztető ablak; Pro vagy Completion Pack → H9 checkout → H10, „Not now” → vissza |
 
 **Működő kapcsolatok az 1. folyamatban:**
 - H1 → H2 (kitűzött kategória) → H3 (térkép) → a #10-es pin → „Mark as found” → H4;
@@ -32,6 +33,7 @@ A négy folyamat egymástól független: egyikből sem lehet a másikba kattinta
 - **H7 offline hiba:** a mentés sikertelen, „Retry”.
 - **H3-G vendég:** csak a térkép érhető el, a többi menüpont halványított.
 - **H11 nem elérhető menüpont.**
+- **H12-B / H12 jelöléskorlát:** ingyenes fiókkal játékonként 100 elem jelölhető meg. A markerpanel alja mutatja az állást (a fő folyamatban 94 of 100, jelölés után 95). 100/100-nál a „Mark as found” a paywallhoz hasonló felugró ablakot nyit: a jelölések megmaradnak, a folytatáshoz Pro vagy Completion Pack kell.
 
 ## Ismert korlátok
 

@@ -2,7 +2,7 @@
 week: 06
 neptun: DYRKAU
 ---
-Low-fi, fekete-fehér wireframe Auto Layouttal. A 13 képernyő a prototípus képernyőinek szürke párja:
+Low-fi, fekete-fehér wireframe Auto Layouttal. A 15 képernyő a prototípus képernyőinek szürke párja:
 - fő flow döntési és megerősítő képernyővel;
 - kritikus állapotok;
 - vendégnézet;
@@ -14,7 +14,7 @@ Low-fi, fekete-fehér wireframe Auto Layouttal. A 13 képernyő a prototípus k�
 
 ## Ellenőrzőlista
 - [x] Döntési képernyő (W2, kitűzött kategória) és megerősítő képernyő (W4, 38/50).
-- [x] Kritikus állapotok: W6 üres könyvtár és W7 mentési hiba (offline).
+- [x] Kritikus állapotok: W6 üres könyvtár, W7 mentési hiba (offline) és W12 jelöléskorlát (100/100).
 - [x] Fekete-fehér, nincs végleges szín, fotó vagy dekoratív ikon; Auto Layout.
 - [x] Mobil (W2-M, 390 px) és asztali (1440 px) változat.
 - [x] Annotációk: feltevések, viselkedés, akadálymentesség.
