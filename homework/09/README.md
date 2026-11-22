@@ -10,7 +10,7 @@ Iteráció döntési naplóval és ellenőrzéssel, mini design system, valamint
 - **Részletes leírás:** [09-iteracio-es-design-system.md](../../project/docs/09-iteracio-es-design-system.md)
 
 ## Ellenőrzőlista
-- [x] Döntési napló 6 iterációval (bizonyíték, hipotézis, változtatás, elvetett alternatíva, várt hatás, nyitott kérdés).
+- [x] Döntési napló 7 iterációval (bizonyíték, hipotézis, változtatás, elvetett alternatíva, várt hatás, nyitott kérdés).
 - [x] Ellenőrzés: I1, I2, I3, I5 és I6 mérve. Az I4 a valódi tesztre vár.
 - [x] Design system oldal:
   - Button (Primary / Secondary / Ghost × 5 állapot, a Disabled is);

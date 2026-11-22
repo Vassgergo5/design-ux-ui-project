@@ -84,13 +84,31 @@ A valódi teszt (8. házi) eredményei a nyitott kérdéseket zárják le.
   - ha a folyamatok függetlenek, a teszt eredménye egyértelműen egy feladathoz köthető.
 - **Változtatás:**
   - „Nav state” változógyűjtemény, az aktív ikon narancssárga;
-  - a négy folyamat (fő feladat, üres könyvtár, vendég, nem elérhető menüpont) nem linkel egymásra;
+  - a folyamatok (fő feladat, üres könyvtár, vendég, nem elérhető menüpont, később a jelöléskorlát) nem linkelnek egymásra;
   - a nem tervezett menüpontok halványítottak és nem kattinthatók.
 - **Elvetett alternatívák:**
   - minden képernyőnek összecsukott másolata: 11-gyel több képernyő;
   - „not available” oldal minden menüpontnak: összekapcsolta volna a folyamatokat.
 - **Várt hatás:** a résztvevő nem téved ki a feladatból, és a menü kijelölése mindig az aktuális oldalt mutatja.
 - **Nyitott kérdés:** zavarja-e a résztvevőket, hogy néhány menüpont halvány?
+
+### I7 – Ingyenes jelöléskorlát: játékonként 100
+
+- **Bizonyíték:**
+  - a szervezeti cél a Pro-bevétel, de az ingyenes csomagban minden alapfunkció korlátlan volt, így a Pro csak kényelmi funkciókat adott (expedíció, import);
+  - a Gamer Guides 50 jelölés után paywallal szakítja meg a keresést (3. házi, K2) – a korlát önmagában nem rossz, a meglepetés az.
+- **Hipotézis:** ha a korlát nagyvonalú és előre látszik, a játékos nem érzi csapdának, a 100%-ra hajtó felhasználónak pedig valódi oka lesz a Próra vagy a Completion Packre.
+- **Változtatás:**
+  - ingyen játékonként 100 jelölés, Pro-val korlátlan;
+  - az állás a markerpanel alján végig látszik (94 of 100);
+  - 100/100-nál figyelmeztető ablak (H12), a paywall felépítésével: a jelölések megmaradnak, Pro / Completion Pack → checkout, „Not now” → vissza;
+  - Bence adatai 94/334-re (28%) módosultak, hogy beleférjenek a korlátba.
+- **Elvetett alternatívák:**
+  - fiókszintű 100 (összesen): 3 követett játékkal túl szűk;
+  - játékonként 250: kevésbé lenne érezhető;
+  - korlát nélküli jelölés: a Pro értéke gyenge marad.
+- **Várt hatás:** a korlát nem szakítja meg váratlanul a fő feladatot, és a Pro ajánlat a megfelelő pillanatban jelenik meg.
+- **Nyitott kérdés:** elég-e a 100 egy átlagos végigjátszáshoz, és nem érzik-e a 100%-ra hajtók igazságtalannak?
 
 ## Ellenőrzés
 
