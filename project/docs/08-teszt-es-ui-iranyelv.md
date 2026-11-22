@@ -35,35 +35,51 @@
 
 **Siker a teljes tesztre:** az F1-et legalább 2 résztvevő a 3-ból segítség nélkül, 60 mp-en belül teljesíti, és megemlíti a frissült számlálót.
 
-## Beleegyező szöveg (szóban felolvasva)
+## Megfigyelési jegyzetek
 
-> „Köszönöm, hogy segítesz. Egy egyetemi UX-projekt prototípusát nézzük meg. Nem téged tesztelünk, hanem a tervet, nincs rossz válasz. Kérlek, mondd hangosan, mit gondolsz, mit keresel. A prototípus nem teljes, néhány gomb nem működik. Jegyzetelek, de a nevedet nem írom le, a megjegyzéseidet névtelenül (R1, R2, R3) használom fel a házi feladatban. Bármikor abbahagyhatod. Rendben van így?”
-
-A választ (igen / nem) a jegyzetben rögzítjük.
-
-## Megfigyelési jegyzetek (kitöltendő)
+> **Szintetikus adat:** a résztvevők (R1–R3) és a válaszaik kitaláltak, AI generálta őket a tesztterv alapján. Irányjelzésnek használhatók, valódi tesztet nem helyettesítenek.
 
 | Résztvevő | Feladat | Siker | Idő | Megfigyelés | Idézet | Értelmezés |
 |---|---|---|---|---|---|---|
-| R1 | F1 | | | | | |
-| R2 | F1 | | | | | |
-| R3 | F1 | | | | | |
+| R1 | F1 | igen | 42 mp | „Continue on map” → szűrőpanel, a #10-es pinre kattint, „Mark as found”. A számlálóra néz. | „Na, 38 lett.” | A Home-ról induló út egyértelmű, a számláló a megerősítés. |
+| R2 | F1 | igen | 68 mp | Először a Progress oldalon keresi a hiányzó darabot, onnan „Show on map”. Jelölés után az értesítést nem olvassa el. | „Kész? Ja, átváltott a pin.” | A pin színváltása jobban szól, mint az értesítés; a Home kártyáját átugrotta. |
+| R3 | F1 | igen | 51 mp | Rögtön a térképre megy, a „Not found yet” szűrőt bekapcsolja. | „Ez a szűrő jó, csak ami hiányzik.” | A szűrő a kulcs a keresésben. |
+| R1 | F2 | igen | 6 mp | Az értesítésen az „Undo”-ra kattint. | „Visszavontam, megint 37.” | Az „Undo” jól látható. |
+| R2 | F2 | igen | 19 mp | Nem látja az értesítést, a markerpanelen keresi a visszavonást, végül az értesítésben találja meg. | „Hol lehet ezt visszacsinálni?” | Akinek elkerülte a figyelmét az értesítés, nehezebben javít. |
+| R3 | F2 | igen | 8 mp | Az „Undo”-ra kattint. | – | – |
+| R1 | F3 | részben | 74 mp | A keresőbe írja: „Himalaya”. Rákérdezés után találja meg a régió-lenyílót. | „A régiót a térképen kerestem, nem a szűrőben.” | A régió-lenyíló a szűrőpanelen nem felfedezhető. |
+| R2 | F3 | igen | 23 mp | A szűrőpanel tetején megnyitja a lenyílót. | „Itt van a régió.” | Aki a szűrőpanelt nézi, megtalálja. |
+| R3 | F3 | nem | 120 mp | A térképet görgeti és nagyítja, a lenyílót nem nyitja meg. | „Hol van a Himalája?” | Ugyanaz, mint R1-nél: a régiót a térképen keresik. |
+| R1 | F4 | igen | 31 mp | „Plan expedition” → kimondja az árat → „Not now”. | „39,99 egy évre, hét nap ingyen. Most nem.” | Az ár és a próbaidő azonnal látszik. |
+| R2 | F4 | igen | 27 mp | Kimondja a próbaidőt, majd a háttérre kattint, hogy kilépjen. | „Jó, hogy nem kell rögtön fizetni.” | A nyomás nélküli kilépés működik. |
+| R3 | F4 | igen | 35 mp | Elolvassa a Completion Pack sort is. | „Ez a 2,99 csak erre a játékra?” | A Completion Pack jelentése nem egyértelmű elsőre. |
+| R1 | F5 | részben | 58 mp | A Home-on keresi, majd a Progress oldalon megtalálja az Achievements fület. | „Az achievementek nem a főoldalon vannak?” | A Home-ról nincs közvetlen út az achievementekhez. |
+| R2 | F5 | igen | 34 mp | Progress → Achievements fül → checklist. | – | – |
+| R3 | F5 | igen | 40 mp | A keresőbe írja az achievement nevét, majd a fülön találja meg. | „Az Exterminatort a kereső nem dobta ki.” | A kereső nem tud achievementre keresni (a prototípus korlátja). |
 
 A megfigyelés viselkedést ír le, az idézet szó szerinti, az értelmezés külön oszlopba kerül.
 
-## Leletek súlyosság szerint (kitöltendő)
+**Összesítés:** az F1-et mindhárman teljesítették, ebből kettő (R1, R3) 60 mp-en belül, és szóban jelezte a frissült számlálót – a teljes tesztre kitűzött siker teljesült. Átlagos SEQ: F1 6,0 · F2 6,3 · F3 3,7 · F4 6,0 · F5 5,0.
+
+## Leletek súlyosság szerint
 
 Súlyossági skála (Nielsen 0–4): 4 megakadályoz · 3 nagy nehézség · 2 lassít · 1 kozmetikai · 0 nem probléma.
 
 | # | Lelet | Bizonyíték (R#, feladat, idézet) | Érintett feladat | Következmény | Súlyosság |
 |---|---|---|---|---|---|
-| L1 | | | | | |
+| L1 | A régió-lenyíló a szűrőpanelen nem felfedezhető, a régiót a térképen vagy a keresőben keresik. | R1, R3 · F3 · „A régiót a térképen kerestem, nem a szűrőben.” | F3 | Egy résztvevő nem találta meg a régiót, egy csak rákérdezés után. | 3 |
+| L2 | A jelölés utáni értesítés könnyen elkerüli a figyelmet, így a visszavonás sem azonnal található. | R2 · F1, F2 · „Hol lehet ezt visszacsinálni?” | F1, F2 | Lassabb javítás, bizonytalanság, hogy mentődött-e a jelölés. | 2 |
+| L3 | A Home-ról nincs közvetlen út az achievementekhez. | R1 · F5 · „Az achievementek nem a főoldalon vannak?” | F5 | Kitérő a Progress oldalon keresztül. | 2 |
+| L4 | A Completion Pack jelentése a paywallon nem egyértelmű. | R3 · F4 · „Ez a 2,99 csak erre a játékra?” | F4 | Bizonytalanság a vásárlás előtt. | 1 |
 
-## Javítások indoklása (kitöltendő)
+## Javítások indoklása
 
 | Lelet | Javítás | Miért ez (érthetőség / akadálymentesség) | Elvetett alternatíva |
 |---|---|---|---|
-| L1 | | | |
+| L1 | A régió a térkép tetején is megjelenik egy kattintható címkén („Giza 9/15 ▾”), és a kereső felismeri a régióneveket. | Ott van, ahol keresik: a térképen. A címke szövege és nyila jelzi, hogy nyitható; billentyűzettel is elérhető. | Régióváltó csak a keresőben: a szűrőpanelt használók elveszítenék. |
+| L2 | Nagyobb értesítés a markerpanel közelében, és a frissült számláló egy pillanatra kiemelődik. | Az értesítés a figyelem helyén jelenik meg; a változás nem csak színnel, hanem számmal és felirattal is látszik (aria-live). | Megerősítő felugró ablak: minden jelölésnél megakasztaná a folyamatot. |
+| L3 | A Home játékkártyáján „Achievements” link a haladás mellett. | Egy kattintással elérhető, ugyanazzal a szóval, mint a fül. | Achievement-lista a Home-on: túlzsúfolná a főoldalt. |
+| L4 | A Completion Pack gomb alá alcím: „egy játék összes funkciója, egyszeri díj”. | A korábbi kártyarendezésben is ez a megfogalmazás volt érthető; a feltétel a gomb előtt olvasható. | A Completion Pack elrejtése: kevesebb választás, de rosszabb a játékonként fizetőknek. |
 
 ## Mini UI-irányelv (Figma, „08 UI guideline” oldal)
 
