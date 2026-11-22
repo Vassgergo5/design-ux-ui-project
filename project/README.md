@@ -5,8 +5,8 @@
 Webes társalkalmazás completionist játékosoknak. Követett játékonként megmutatja, mi hiányzik még egy gyűjthető-kategóriából, egy kattintással a térképen jelöli a hiányzókat, és a „Mark as found” jelölés mindenhol egyszerre frissül. Példajáték: Indiana Jones and the Great Circle (Gizeh, ősi ereklyék, 37/50). Üzleti modell: freemium, Pro-előfizetés (fő modell) és játékonkénti egyszeri Completion Pack.
 
 **Jelenlegi állapot (2026. 11. 22.):**
-- az 1–9. házi tervezési része kész: wireframe, hi-fi prototípus 4 független folyamattal, UI-irányelv, design system, handoff;
-- hátravan a valódi használhatósági teszt 3 résztvevővel (7–8. házi), az eredmények beírása a 8–9. házi leírásába, és a 10. házi prezentációjának átdolgozása.
+- az 1–9. házi tervezési része kész: wireframe, hi-fi prototípus 5 független folyamattal, UI-irányelv, design system, handoff;
+- hátravan a valódi használhatósági teszt 3 résztvevővel (7–8. házi), az eredmények beírása a 8–9. házi leírásába.
 
 > A 2. házi interjúi és a korábbi tesztkörök résztvevői **szintetikusak** (AI-generált, mindenhol jelölve), ezért ezek csak irányjelzések. A mostani prototípust valódi résztvevőkkel teszteljük.
 
@@ -23,7 +23,7 @@ Webes társalkalmazás completionist játékosoknak. Követett játékonként me
 | 07  | Kattintható prototípus | [Prototípus](https://www.figma.com/proto/kN2k74VzXlRbW2lnC9GXMH?node-id=114-5&starting-point-node-id=114%3A5), [házi leírás](../homework/07/README.md), [részletes leírás](docs/07-prototipus.md) |
 | 08  | Használhatósági teszt, mini UI-irányelv | [UI guideline](https://www.figma.com/design/kN2k74VzXlRbW2lnC9GXMH?node-id=3-3), [házi leírás](../homework/08/README.md), [részletes leírás](docs/08-teszt-es-ui-iranyelv.md) |
 | 09  | Iteráció, mini design system, handoff | [Hi-fi prototípus](https://www.figma.com/proto/kN2k74VzXlRbW2lnC9GXMH?node-id=114-5&starting-point-node-id=114%3A5), [design system](https://www.figma.com/design/kN2k74VzXlRbW2lnC9GXMH?node-id=3-4), [handoff](https://www.figma.com/design/kN2k74VzXlRbW2lnC9GXMH?node-id=3-6), [házi leírás](../homework/09/README.md), [részletes leírás](docs/09-iteracio-es-design-system.md) |
-| 10  | Projektprezentáció (készül) | – |
+| 10  | Projektprezentáció | [Diák („10 Presentation” oldal)](https://www.figma.com/design/kN2k74VzXlRbW2lnC9GXMH?node-id=18-2), [házi leírás](../homework/10/README.md), [részletes leírás](docs/10-prezentacio.md) |
 
 ## Feladatkövetés
 
@@ -42,3 +42,4 @@ A kiegészítő dokumentumok a [`docs/`](docs/) mappában vannak:
 - **7. fejezet:** [kattintható prototípus](docs/07-prototipus.md)
 - **8. fejezet:** [teszt és mini UI-irányelv](docs/08-teszt-es-ui-iranyelv.md)
 - **9. fejezet:** [döntési napló, design system, handoff](docs/09-iteracio-es-design-system.md)
+- **10. fejezet:** [prezentáció és önreflexió](docs/10-prezentacio.md)
