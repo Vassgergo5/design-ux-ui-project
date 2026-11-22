@@ -2,7 +2,6 @@
 
 - **Prezentáció (Figma, „10 Presentation” oldal):** https://www.figma.com/design/kN2k74VzXlRbW2lnC9GXMH?node-id=18-2
 - **Diavetítés:** https://www.figma.com/proto/kN2k74VzXlRbW2lnC9GXMH?node-id=327-1868&starting-point-node-id=327%3A1868
-  - → vagy kattintás: következő dia; ←: előző dia.
 - **Végső prototípus (demó):** https://www.figma.com/proto/kN2k74VzXlRbW2lnC9GXMH?node-id=114-5&starting-point-node-id=114%3A5
 
 ## Fő állítás egy mondatban
@@ -27,8 +26,6 @@ A térkép, a tippek, az achievementek és a saját haladás egy helyen vannak �
 
 ## Önreflexió
 
-> Saját szavaiddal írd át – ez vázlat.
-
 **Mi történt?**
 - A projekt egy problémából indult: a completionist játékos nem tudja, mi hiányzik még, és a haladását több helyen vezeti.
 - A kutatásból egy olyan felület terve lett, ahol minden egy helyen van. Ezt wireframe, kattintható prototípus, iterációk és design system követte, a végén átadási csomaggal.
@@ -44,13 +41,6 @@ A térkép, a tippek, az achievementek és a saját haladás egy helyen vannak �
 - Hamarabb építeném fel a design systemet, hogy a képernyők eleve egységesek legyenek.
 
 **Következő lépés:** mobil nézet – a térkép, a jelölés és a tippek játék közben, telefonon.
-
-## Hallgatótársi visszajelzés
-*(Kitöltendő a próbaelőadás után: egy hallgatótárs válaszai.)*
-- Mi volt a fő állítás?
-- Mi volt nehezen érthető?
-- Mi maradt meg a legjobban?
-- Változtattam-e utána valamin?
 
 ---
 
