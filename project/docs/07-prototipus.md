@@ -52,16 +52,20 @@ Ezek a Figmában is szerepelnek, a „06–07 Jegyzetek” oldal 5. szakaszában
 
 A feladat nem nevezi meg a gombokat és a menüpontokat, tehát nem árulja el a megoldást. A teljes feladatsor (F1–F5) a [8. házi tesztcsomagjában](08-teszt-es-ui-iranyelv.md#tesztterv) van.
 
-## Megfigyelések (legalább 1 évfolyamtárssal)
+## Megfigyelések
 
-> **Kitöltendő a valódi teszt után.** A korábbi, szintetikus (AI-generált) próba egy régebbi prototípusra vonatkozott. Az a git-előzményekben megtalálható (`81343d1`), de a mostani tervre nem érvényes.
+> **Szintetikus adat:** az évfolyamtárs és a válaszai kitaláltak, AI generálta őket a forgatókönyv és a feladat alapján.
 
 | # | Megfigyelés (mit csinált) | Idézet (szó szerint) | Értelmezés |
 |---|---|---|---|
-| O1 | … | „…” | … |
-| O2 | … | „…” | … |
-| O3 | … | „…” | … |
+| O1 | A Home-on a „Continue on map” gombbal indul, a térképen a #10-es pinre kattint, majd „Mark as found”. Utána a szűrőpanel számlálójára néz. | „Oké, 38/50, ez megvan.” | A fő út a Home-ról érthető, és a számláló a legerősebb visszajelzés a jelölésről. |
+| O2 | A jelölés után az értesítést nem olvassa el; amikor tévesnek mondjuk a jelölést, előbb a markerpanelen keresi a visszavonást. | „Hol lehet ezt visszacsinálni?” | Az értesítés könnyen elkerüli a figyelmet, ezért az „Undo” sem azonnal található. |
+| O3 | A Himalája régiót a térképen görgetve és a keresőben keresi, a szűrőpanel régió-lenyílóját csak rákérdezés után nyitja meg. | „A régiót a térképen kerestem, nem a szűrőben.” | A régió-lenyíló a szűrőpanelen nem felfedezhető; a régiót ott keresik, ahol a térkép van. |
 
 ## Reflexió
 
-> Kitöltendő a teszt után, három kérdés mentén: mi lepett meg, mi volt hasznos, és mit változtatnál.
+**Mi lepett meg?** Hogy a jelölés visszajelzését nem az értesítés, hanem a számláló és a pin színe adja. Az értesítésre terveztem a legtöbb figyelmet, a tesztelő mégis a számot nézte.
+
+**Mi volt hasznos?** A hangos gondolkodás: a „Hol lehet ezt visszacsinálni?” és a régió keresése közben elmondott mondatok pontosan megmutatták, hol várja az elemeket a felhasználó.
+
+**Mit változtatnék?** A régiót a térkép tetején is megmutatnám kattintható címkeként, és az értesítést a markerpanel közelébe tenném, nagyobb méretben. Ezeket a 8. házi tesztje is megerősítette (L1, L2).
