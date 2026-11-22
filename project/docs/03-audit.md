@@ -52,7 +52,7 @@
 | # | Kockázat | Megelőző javítási irány |
 |---|---|---|
 | K1 | A térkép pontjai csak színnel jelzik, hogy egy darab megvan-e vagy hiányzik (WCAG 1.4.1). | Ikon + felirat (pipa / üres kör) és a „Csak a hiányzók” szűrő. |
-| K2 | A paywall keresés közben szakítja meg a fő feladatot (mint a Gamer Guides 50 jelölős korlátja). | A hiányzólista, a szűrt térkép, a „Megtaláltam” és az alap tippek mindig ingyenesek; paywall csak kényelmi funkciónál, mindig „Not now” gombbal. |
+| K2 | A paywall keresés közben szakítja meg a fő feladatot (mint a Gamer Guides 50 jelölős korlátja). | A hiányzólista, a szűrt térkép és az alap tippek mindig ingyenesek; a „Megtaláltam” ingyen játékonként 100 elemig használható (a Gamer Guides 50-e helyett), és az állás végig látszik; paywall csak kényelmi funkciónál, mindig „Not now” gombbal. |
 | K3 | Téves „Megtaláltam” jelölés, visszavonás nélkül (R5-6). | Visszavonható értesítés 8 másodpercig, és a darabnál „Mégse találtam meg” művelet. |
 | K4 | A közösségi tippek között lehet hibás vagy spoileres (a Gamer Guides kommentjeinél is előfordul). | Spoilercímke, „Hasznos” szavazás, jelentés gomb; az ellenőrzött alapanyag mindig a tippek felett áll. |
 

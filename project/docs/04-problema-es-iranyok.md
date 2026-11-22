@@ -34,10 +34,11 @@ Jelölés a boardon: **zöld cetli** = kutatási bizonyíték (forrásjellel), *
 2. Keresőexpedíció a kiválasztott kategóriák még nem jelölt pontjain át, megadott kiindulópontból.
 3. Korlátlan követés (ingyen: 3 játék).
 4. Korlátlan kitűzés (ingyen: 3 kategória játékonként).
-5. 7 napos próbaidő: az első limitnél vagy expedíció indításakor ajánljuk fel.
-6. PRO badge a kommentekben. Ez csak jelzés, a tippek sorrendjét a „Hasznos” szavazatok adják.
-7. Reklámmentesség.
-8. Időszakos ajándékakció (pl. ünnepek, nagy megjelenések): egy Pro-felhasználó 1 hónap Prót ajándékozhat.
+5. Korlátlan jelölés (ingyen: játékonként 100 megtaláltnak jelölt elem).
+6. 7 napos próbaidő: az első limitnél vagy expedíció indításakor ajánljuk fel.
+7. PRO badge a kommentekben. Ez csak jelzés, a tippek sorrendjét a „Hasznos” szavazatok adják.
+8. Reklámmentesség.
+9. Időszakos ajándékakció (pl. ünnepek, nagy megjelenések): egy Pro-felhasználó 1 hónap Prót ajándékozhat.
    - Kártya nélkül fogadható, és nem újul meg.
    - Lejárat előtt értesít, utána semmi nem vész el.
 

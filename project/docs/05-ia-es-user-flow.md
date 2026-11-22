@@ -63,7 +63,7 @@ A fő feladat legrövidebb útja (a boardon vastag piros nyíl, 3 kattintás): H
 | S2 | Game page – Progress | Teljes haladás (%), felül a kitűzött kategóriák számlálóval, kategórialista, „Show on map”, régiószűrő |
 | S3 | Map | Minden pont látszik. Szűrők: típus, régió, „Not found yet”. Rétegek, keresés |
 | S4 | Point detail (oldalpanel) | Lásd a táblázat alatt. |
-| S5 | Paywall (modal) | Mit nyit meg a Pro (expedíció, import, korlátlan követés és kitűzés, reklámmentesség), ár, 7 napos próbaidő, lemondási feltétel, „Not now” |
+| S5 | Paywall (modal) | Mit nyit meg a Pro (expedíció, import, korlátlan követés, kitűzés és jelölés, reklámmentesség), ár, 7 napos próbaidő, lemondási feltétel, „Not now” |
 | S6 | Pricing | Free / Pro havi / Pro éves (kiemelve) / Completion Pack; időszakos „Gift Pro” akció |
 | S7 | Checkout | Választott csomag, bruttó ár forintban, fizetési adatok, összesítő |
 | S8 | Purchase success | Mi aktiválódott, következő terhelés, vissza a térképhez |
@@ -112,6 +112,10 @@ Jelmagyarázat a boardon:
   - „Not now” → vissza a térképre;
   - Pro → Checkout → **részleges siker:** a Pro aktív, az expedíció indul.
 - **E4 Mentés sikertelen (offline):** a „Mark as found”-ból indul. A jelölés helyben megmarad, a „Retry” újrapróbálja.
+- **E5 Ingyenes jelöléskorlát elérve (100/100):** a „Mark as found”-ból indul, ha a játékban már 100 elem meg van jelölve.
+  - Figyelmeztető ablak: a jelölések megmaradnak, a térkép, a szűrők és a tippek ingyenesek maradnak;
+  - Pro vagy Completion Pack → Checkout;
+  - „Not now” → vissza a térképre, a jelölés nem jön létre.
 
 | Döntés | Szükséges információ | Forrás |
 |---|---|---|
@@ -134,6 +138,7 @@ Jelmagyarázat a boardon:
 | W6 | Üres könyvtár – nincs követett játék (E1) |
 | W8 | Paywall – Expedition (E3) |
 | W7 | Mentési hiba (E4) |
+| W12 | Jelöléskorlát elérve – figyelmeztető ablak (E5) |
 | W2-M | W2 mobilon (390 px) |
 
 ## 6 · Második flow – „Elakadtam egy puzzle-nél” (Réka)
