@@ -1,14 +1,6 @@
 # Completely – a 100% egy helyen
 
-*Korábbi munkanév: GameHub.*
-
 Webes társalkalmazás completionist játékosoknak. Követett játékonként megmutatja, mi hiányzik még egy gyűjthető-kategóriából, egy kattintással a térképen jelöli a hiányzókat, és a „Mark as found” jelölés mindenhol egyszerre frissül. Példajáték: Indiana Jones and the Great Circle (Gizeh, ősi ereklyék, 37/50). Üzleti modell: freemium, Pro-előfizetés (fő modell) és játékonkénti egyszeri Completion Pack.
-
-**Jelenlegi állapot (2026. 11. 22.):**
-- az 1–9. házi tervezési része kész: wireframe, hi-fi prototípus 5 független folyamattal, UI-irányelv, design system, handoff;
-- hátravan a valódi használhatósági teszt 3 résztvevővel (7–8. házi), az eredmények beírása a 8–9. házi leírásába.
-
-> A 2. házi interjúi és a korábbi tesztkörök résztvevői **szintetikusak** (AI-generált, mindenhol jelölve), ezért ezek csak irányjelzések. A mostani prototípust valódi résztvevőkkel teszteljük.
 
 ## Timeline
 
